@@ -1,0 +1,38 @@
+const canvas = document.querySelector('canvas');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'hsla(240, 50%, 50%, 1)';
+ctx.fillRect(200, 200, 300, 300);
+
+ctx.globalCompositeOperation = 'source-over';
+ctx.globalCompositeOperation = 'source-in';
+ctx.globalCompositeOperation = 'source-out';
+ctx.globalCompositeOperation = 'source-atop';
+ctx.globalCompositeOperation = 'destination-over';
+ctx.globalCompositeOperation = 'destination-in';
+ctx.globalCompositeOperation = 'destination-out';
+ctx.globalCompositeOperation = 'destination-atop';
+ctx.globalCompositeOperation = 'lighter';
+ctx.globalCompositeOperation = 'copy';
+ctx.globalCompositeOperation = 'xor';
+ctx.globalCompositeOperation = 'multiply';
+ctx.globalCompositeOperation = 'screen';
+ctx.globalCompositeOperation = 'overlay';
+ctx.globalCompositeOperation = 'darken';
+ctx.globalCompositeOperation = 'lighten';
+ctx.globalCompositeOperation = 'color-dodge';
+ctx.globalCompositeOperation = 'color-burn';
+ctx.globalCompositeOperation = 'hard-light';
+ctx.globalCompositeOperation = 'soft-light';
+ctx.globalCompositeOperation = 'difference';
+ctx.globalCompositeOperation = 'exclusion';
+ctx.globalCompositeOperation = 'hue';
+ctx.globalCompositeOperation = 'saturation';
+ctx.globalCompositeOperation = 'color';
+ctx.globalCompositeOperation = 'luminosity';
+
+ctx.fillStyle = 'hsla(0, 50%, 50%, 1)';
+ctx.beginPath();
+ctx.arc(500, 500, 175, 0, Math.PI * 2);
+ctx.fill();
