@@ -3,3 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+canvas {
+    background: hsla(0, 0%, 0%, 1);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
